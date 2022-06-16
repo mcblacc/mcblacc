@@ -1,9 +1,35 @@
+.scoll {
+    padding: 0 0 100vh;
+}
+
 body {
     background: var(--background);
     color: var(--text-color);
 }
 
-div.jumbo {
+section.jumbo {
     width: 100%;
+    height: 100vh;
+    background: url(../images/abso2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+div.jumbo-bottom {
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+div.jumbo-center {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#jref {
+    position: relative;
 }

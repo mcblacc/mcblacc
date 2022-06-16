@@ -1,11 +1,11 @@
 .scroll {
-    padding: 0 0 100vh;
+    padding: 0 0;
 }
 /* laptop */
 @media screen and (max-width: 1866px) {
     header nav, 
     .container {
-        width: 95%;
+        width: 97%;
     }
 }
 
@@ -26,6 +26,22 @@
 
     .hide-on-large-flex {
         display: flex !important;
+    }
+
+    
+    .large-text, .large-text span {
+        font-size: 3rem;
+        -webkit-text-stroke: 0;
+    }
+
+    .center-med {
+        text-align: center;
+    }
+
+    div.menu-links ul li a, .abso-link {
+        font-size: 2.8rem;
+        font-family: 'LG';
+        -webkit-text-stroke: 0;
     }
 
     .medium-12 { width: calc((12/12) * 100%);}

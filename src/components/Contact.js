@@ -3,7 +3,7 @@ import locomotiveScroll from "locomotive-scroll";
 
 import Header from "../snippets/Header";
 
-export default function About() {
+export default function Contact() {
   const scrollRef = React.createRef();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export default function About() {
         <Header />
       </section>
       <section className="scroll" ref={scrollRef}>
-        About
+        Contact
       </section>
     </div>
   );
