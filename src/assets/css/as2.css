@@ -86,7 +86,7 @@ a.brand img {
 
 .button svg {
     width: 18px;
-    transform: translateY(-2px);
+    transform: translateY(1px);
     margin-left: 10px;
 }
 

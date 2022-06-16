@@ -1,11 +1,11 @@
-import React from "react";
-import { ArrowRight } from "react-feather";
+import React, { useEffect, useRef } from "react";
 
-import {LogoBehance, LogoGithub, LogoInstagram, LogoLinkedin} from 'react-ionicons';
+import {LogoBehance, LogoGithub, LogoInstagram, LogoLinkedin, ArrowForward} from 'react-ionicons';
 
 export default function Footer() {
     return (
         <footer>
+            <div className="abso-foot">Socials</div>
             <div className="container center-text">
                 <div className="row">
                     <div className="column large-3 medium-12"></div>
@@ -16,7 +16,7 @@ export default function Footer() {
                         <br />
                         <p>I'm available for freelance or deep web</p>
                         <br /><br />
-                        <a className="button" href="/contact">Say Hello <ArrowRight /></a>
+                        <a className="button" href="/contact">Say Hello <ArrowForward color="#ffffff" /></a>
                     </div>
                     <div className="column large-3"></div>
                 </div>

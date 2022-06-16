@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "axios": "^0.27.2",
+    "jquery": "^3.6.0",
     "jquery.marquee": "^1.6.0",
     "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
