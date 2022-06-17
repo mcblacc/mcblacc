@@ -1,3 +1,7 @@
+@keyframes load {
+    0% { width: 0; }
+}
+
 div.menu-links ul li:nth-child(1),
 div.menu-socials ul li:nth-child(1) {
     animation-delay: 0.1s;

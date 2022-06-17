@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
     header nav, 
     .container  {
-        width: 94%;
+        width: 90%;
     }
 
     .hide-on-med-and-small {

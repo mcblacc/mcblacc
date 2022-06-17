@@ -1,6 +1,6 @@
 import React from "react";
-
-// import Signature from '../assets/images/signature.png';
+import { ArrowForward } from "react-ionicons";
+import { Link } from "react-router-dom";
 
 export default function Aref() {
     return (
@@ -13,19 +13,22 @@ export default function Aref() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="column large-5 medium-12"></div>
+                    <div className="column large-4 medium-12"></div>
                     <div className="column large-5 medium-12">
                         <p className="grey-tx bold-tx large-tx">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae ius
-                            Lorem et consectetur adipisicing elit. Dicta beatae iusto accusantium atque labore tempore quis mollitia id. Odit debitis ea sint provident repellendus commodi dicta nemo eveniet officia tempore!
+                            I'm Mark, a Software Engineer focused on building products and connections driven by empathy, people and technology.
+                            <br /><br />
+                            Get to know me better to see if I'm the right fit for your project!
                         </p>
-                        <br /><br />
+                        <br />
+                        <Link className="button" to="/about">About me <ArrowForward color="#ffffff" /></Link>
+                        <br /><br /><br />
                         <p className="white-tx bold-tx large-tx">
-                            em ipsum dolor sit amet consectetur adipisicingem ipsum dolor sit amet consectetur adipisicing
+                            As a Software Engineer with an eye for design and user experience, I craft quality software from front to back - every aspect considered. You can call me your Swiss Army Knife in terms of Software.
                         </p>
                         <br />
                     </div>
-                    <div className="column large-2 medium-12"></div>
+                    <div className="column large-3 medium-12"></div>
                 </div>
             </div>
         </section>

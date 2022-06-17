@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import locomotiveScroll from "locomotive-scroll";
 
 import Header from "../snippets/Header";
+import Loader from "../snippets/Loader";
 
 export default function About() {
   const scrollRef = React.createRef();
@@ -9,18 +10,21 @@ export default function About() {
   useEffect(() => {
     new locomotiveScroll({
       el: scrollRef.current,
-      smooth: true
+      smooth: true,
     });
   });
 
   return (
     <div>
-      <section className="scroll" ref={scrollRef}>
-        <Header />
-      </section>
-      <section className="scroll" ref={scrollRef}>
-        About
-      </section>
+      <Loader />
+      <div id="rel">
+        <section className="scroll" ref={scrollRef}>
+          <Header />
+        </section>
+        <section className="scroll" ref={scrollRef}>
+          About
+        </section>
+      </div>
     </div>
   );
 }

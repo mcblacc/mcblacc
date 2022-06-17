@@ -56,7 +56,7 @@ export default function Header() {
                 });
                 menu.classList.remove('animate__fadeOut');
                 menu.style = 'display: none';
-            }, 450);
+            }, 600);
         }
     }
 
@@ -65,13 +65,13 @@ export default function Header() {
             <header>
                 <nav className="hide-on-med-and-small">
                     <div className="column large-4">
-                        <NavLink className="brand" to="/">
+                        <NavLink className="brand animate__animated animate__fadeInDown" to="/">
                             <img src={Logo} alt="No internet connection|Logo" />
                         </NavLink>
                     </div>
                     <div className="column large-8 flex space-between">
-                        <div className="menu" onClick={handleToggle}></div>
-                        <a className="button" href="mailto:emceeblacc@gmail.com">
+                        <div className="menu animate__animated animate__fadeInDown" onClick={handleToggle}></div>
+                        <a className="button animate__animated animate__fadeInDown" href="mailto:emceeblacc@gmail.com">
                             Let's Talk Business
                         </a>
                     </div>

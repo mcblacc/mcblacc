@@ -3,7 +3,7 @@ import React from "react";
 export default function Jumbo() {
     return (
         <section className="jumbo">
-            <div className="jumbo-center">
+            <div className="jumbo-center animate__animated animate__fadeInUp">
                 <div className="large-text">
                     emcee<sup>mc.</sup> <span>blacc.</span>
                 </div>
@@ -12,16 +12,16 @@ export default function Jumbo() {
                 <div className="container">
                     <div className="row center-align">
                         <div className="column large-4 hide-on-med-and-small">
-                            <p className="grey-tx bold-tx">Devops Engineer</p>
+                            <p className="grey-tx bold-tx animate__animated animate__fadeInUp">Web Expert</p>
                         </div>
                         <div className="column large-5 hide-on-med-and-small">
-                            <a href="#jref" className="large-circle-button">
+                            <a href="#jref" className="large-circle-button animate__animated animate__fadeInUp">
                                 Scroll
                             </a>
                         </div>
                         <div className="column large-3 medium-12">
-                            <p className="grey-tx bold-tx white-tx center-med">
-                                I am an independent developer in NG currently working on freelance and deep web pojects.
+                            <p className="grey-tx bold-tx grey-tx center-med animate__animated animate__fadeInUp">
+                                I am developer based in NG currently freelancing on devloping pojects.
                             </p>
                         </div>
                     </div>
