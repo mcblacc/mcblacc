@@ -3,6 +3,7 @@ import React from "react";
 export default function Magic() {
     return (
         <section className="padd-ref" id="jref">
+            <div className="stract-2 hide-on-med-and-small"></div>
             <div className="bg"></div>
             <div className="container" id="trigger">
                 <div className="row">
@@ -19,7 +20,7 @@ export default function Magic() {
                                 <div className="column large-7 medium-12 mtt">
                                     <div className="stack">HTML, CSS, Sass <div></div></div>
                                     <div className="stack">React + Redux <div></div></div>
-                                    <div className="stack">React + Redux <div></div></div>
+                                    <div className="stack">Adobe <div></div></div>
                                     <div className="stack">Javscript <div></div></div>
                                     <div className="stack">Next.js <div></div></div>
                                     <div className="stack">Veu.js <div></div></div>

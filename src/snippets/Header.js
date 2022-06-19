@@ -105,7 +105,6 @@ export default function Header() {
                                     <li className="animate__animated animate__fadeInUp"><Link to="/about">About</Link></li>
                                     <li className="animate__animated animate__fadeInUp"><Link to="/pricing">Pricing</Link></li>
                                     <li className="animate__animated animate__fadeInUp"><Link to="/contact">Contact</Link></li>
-                                    <li className="animate__animated animate__fadeInUp"><Link to="/services">Portfolio</Link></li>
                                 </ul>
                             </div>
                         </div>

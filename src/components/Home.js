@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div class="o-scroll" id="js-scroll" ref={scrollRef}>
-      {/* <Loader /> */}
+      <Loader />
       <div id="rel">
         <section>
           <Header />

@@ -20,8 +20,9 @@ section.jumbo::before {
     width: 100%;
     height: 100%;
     background: url(../images/abso.jpg);
-    background-attachment: scroll;
-    filter: contrast(0.9) brightness(40%);
+    z-index: -1;
+    background-attachment: fixed;
+    filter: contrast(1) brightness(50%);
     background-size: cover;
     background-position: center;
     animation: zoomInUp 1s linear;
@@ -63,6 +64,7 @@ div.abso-foot {
 div.refbox {
     width: 200px;
     height: 200px;
+    background-attachment: fixed;
     background: url(../images/abso2.jpg);
     border-radius: 500px;
     background-size: cover;
@@ -101,14 +103,14 @@ div.refbox {
     width: 100%;
     height: 100%;
     background: rgb(80, 80, 80);
-    animation: tada 50s linear infinite;
+    animation: lightSpeedInLeft 10s linear infinite;
     left: 0;
     top: 0;
 }
 
 .faq-box {
     padding: 18px 30px;
-    background: var(--background);
+    background: #151515;
     border-radius: 20px;
     margin-top: -16px;
     position: relative;
@@ -159,14 +161,14 @@ div.refbox {
     height: 100%;
     left: 0;
     z-index: -1;
-    background: #00000021;
     backdrop-filter: blur(26px);
     top: 0;
 }
 
 .large-txa {
-    font-size: 5vw;
-    line-height: 5vw;
+    font-size: 6rem;
+    line-height: 7rem;
+    letter-spacing: -5px;
     font-family: 'LGG';
 }
 
@@ -176,4 +178,34 @@ div.refbox {
     align-items: center;
     height: 100%;
     justify-content: center;
+}
+
+.lix {
+    height: 100vh;
+    position: relative;
+}
+
+.stract {
+    width: 20%;
+    height: 30vh;
+    bottom: 0;
+    position: absolute;
+    background: url(../images/stract.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.stract-2 {
+    width: 20%;
+    height: 30vh;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background: url(../images/stract.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
 }

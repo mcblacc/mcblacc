@@ -32,6 +32,7 @@ export default function Aref() {
                     <div className="column large-3 medium-12 flex bottom-align"></div>
                 </div>
             </div>
+            <div className="stract hide-on-med-and-small"></div>
         </section>
     )
 }

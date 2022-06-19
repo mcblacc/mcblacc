@@ -1,16 +1,7 @@
-import React, { useLayoutEffect, useRef } from 'react';
-import { PushIn } from 'pushin';
+import React from 'react';
 import { ArrowDownCircleOutline } from 'react-ionicons';
 
 export default function Jref() {
-//   const pushInContainer = useRef();
-
-//   useLayoutEffect(() => {
-//     const pushIn = new PushIn(pushInContainer.current);
-//     pushIn.start();
-
-//     return () => pushIn.destroy();
-//   });
 
   return (
     <div className='jref'>

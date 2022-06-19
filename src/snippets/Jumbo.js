@@ -21,7 +21,7 @@ export default function Jumbo() {
                         </div>
                         <div className="column large-3 medium-12">
                             <p className="grey-tx bold-tx white-tx center-med animate__animated animate__fadeInUp">
-                                I am developer based in NG currently freelancing on devloping pojects.
+                                I am a developer currently freelancing on devloping pojects.
                             </p>
                         </div>
                     </div>

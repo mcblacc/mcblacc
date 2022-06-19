@@ -23,16 +23,16 @@ export default function Footer() {
             </div>
             <div className="footer-bottom flex">
                 <div className="cpr">&copy; EMCEE BLACC 2022.</div>
-                <a href="https://facebook.com">
+                <a href="https://instagram.com/emceeblacc" target="_blank" rel="noopener noreferrer">
                     <LogoInstagram color="#ffffff" />
                 </a>
-                <a href="https://facebook.com">
+                <a href="https://github.com/mcblacc" target="_blank" rel="noopener noreferrer">
                     <LogoGithub color="#ffffff" />
                 </a>
-                <a href="https://facebook.com">
+                <a href="https://twitter.com/mcblacc" target="_blank" rel="noopener noreferrer">
                     <LogoTwitter color="#ffffff" />
                 </a>
-                <a href="https://facebook.com">
+                <a href="https://linkedin.com/mcblacc" target="_blank" rel="noopener noreferrer">
                     <LogoLinkedin color="#ffffff" />
                 </a>
             </div>

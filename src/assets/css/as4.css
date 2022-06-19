@@ -155,6 +155,7 @@ body {
 .jref {
   height: 100vh;
   position: relative;
-  background: #101010;
+  /* background: #101010; */
+  overflow: visible;
   color: white;
 }

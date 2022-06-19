@@ -18,10 +18,10 @@ export default function Pricing() {
     <div>
       <Loader />
       <div id="rel">
-        <section className="scroll" ref={scrollRef}>
+        <section>
           <Header />
         </section>
-        <section className="scroll" ref={scrollRef}>
+        <section>
           About
         </section>
       </div>
