@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function Aref() {
     return (
         <section className="padd-ref white-content" id="jref">
+            <div className="bg"></div>
             <div className="lines">
                 <div className="line"></div>
                 <div className="line"></div>
@@ -13,9 +14,9 @@ export default function Aref() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="column large-4 medium-12"></div>
+                    <div className="column large-4 medium-12 flex center-align justify-right"></div>
                     <div className="column large-5 medium-12">
-                        <p className="grey-tx bold-tx large-tx">
+                        <p className="grey-tx bold-tx large-tx aniview" data-av-animation="animate__slideInRight">
                             I'm Mark, a Software Engineer focused on building products and connections driven by empathy, people and technology.
                             <br /><br />
                             Get to know me better to see if I'm the right fit for your project!
@@ -28,7 +29,7 @@ export default function Aref() {
                         </p>
                         <br />
                     </div>
-                    <div className="column large-3 medium-12"></div>
+                    <div className="column large-3 medium-12 flex bottom-align"></div>
                 </div>
             </div>
         </section>

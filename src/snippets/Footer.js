@@ -14,7 +14,7 @@ export default function Footer() {
                             Let's work together.
                         </div>
                         <br />
-                        <p>I'm available for freelance or deep web</p>
+                        <p>I'm available for your next project</p>
                         <br /><br />
                         <Link className="button" to="/contact">Say Hello <ArrowForward color="#ffffff" /></Link>
                     </div>

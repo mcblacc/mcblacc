@@ -4,7 +4,7 @@ import locomotiveScroll from "locomotive-scroll";
 import Header from "../snippets/Header";
 import Loader from "../snippets/Loader";
 
-export default function Services() {
+export default function Pricing() {
   const scrollRef = React.createRef();
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Services() {
           <Header />
         </section>
         <section className="scroll" ref={scrollRef}>
-          Services
+          About
         </section>
       </div>
     </div>

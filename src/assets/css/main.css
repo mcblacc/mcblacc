@@ -1,5 +1,5 @@
 .scoll {
-    padding: 0 0 100vh;
+    padding: 0 0 200vh;
 }
 
 body {
@@ -19,10 +19,12 @@ section.jumbo::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../images/abso2.jpg);
+    background: url(../images/abso.jpg);
+    background-attachment: scroll;
+    filter: contrast(0.9) brightness(40%);
     background-size: cover;
     background-position: center;
-    animation: zoomInDown 1.5s linear;
+    animation: zoomInUp 1s linear;
 }
 
 div.jumbo-bottom {
@@ -55,5 +57,123 @@ div.abso-foot {
     bottom: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+div.refbox {
+    width: 200px;
+    height: 200px;
+    background: url(../images/abso2.jpg);
+    border-radius: 500px;
+    background-size: cover;
+    background-position: center;
+    z-index: -20;
+}
+
+.white-bx {
+    background: #070707;
+    overflow: hidden;
+    position: relative;
+}
+
+.stack {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stack div {
+    background: var(--border-color);
+    height: 0.01rem;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.stack-box {
+    margin-bottom: 10vh;
+}
+
+.stack div::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(80, 80, 80);
+    animation: tada 50s linear infinite;
+    left: 0;
+    top: 0;
+}
+
+.faq-box {
+    padding: 18px 30px;
+    background: var(--background);
+    border-radius: 20px;
+    margin-top: -16px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.faq-box::before {
+    content: '?';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: var(--border-color);
+    border-radius: 100px;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.faq-container .p {
+    padding: 0 30px;
+}
+
+.faq-container {
+    margin-bottom: 80px;
+}
+
+.lxa svg {
+    transform: translate(0, 5px);
+}
+
+.lxa {
+    color: #c7c7c7;
+}
+
+.fixed {
+    height: 1.7cm;
+    box-shadow: 0 0 0 .01rem #434343;
+}
+
+.fixed::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+    background: #00000021;
+    backdrop-filter: blur(26px);
+    top: 0;
+}
+
+.large-txa {
+    font-size: 5vw;
+    line-height: 5vw;
+    font-family: 'LGG';
+}
+
+.artx {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
     justify-content: center;
 }

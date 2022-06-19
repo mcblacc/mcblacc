@@ -11,6 +11,9 @@
 
 /* ipads */
 @media screen and (max-width: 1024px) {
+    .mtt {
+        margin-top: 40px;
+    }
     header nav, 
     .container  {
         width: 90%;
@@ -37,7 +40,7 @@
     }
 
     .center-med {
-        text-align: center;
+        text-align: right;
     }
 
     div.menu-links ul li a, .abso-link {

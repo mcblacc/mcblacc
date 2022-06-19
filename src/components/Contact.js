@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import locomotiveScroll from "locomotive-scroll";
 
 import Header from "../snippets/Header";
-import Footer from "../snippets/Footer";
 import Loader from "../snippets/Loader";
 
 export default function Contact() {

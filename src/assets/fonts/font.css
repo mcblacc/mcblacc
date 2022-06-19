@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'RG';
-  src: url(./433.woff2);
+  src: url(./space/regular.ttf);
 } 
 
 @font-face {
   font-family: "LG";
-  src: url(./424.woff2);
+  src: url(./space/regular.ttf);
 }
 
 @font-face {
   font-family: 'LGG';
-  src: url(./heading.woff2);
+  src: url(./space/bold.ttf);
 }

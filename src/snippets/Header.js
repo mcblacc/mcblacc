@@ -14,28 +14,28 @@ export default function Header() {
     window.addEventListener('scroll', (e) => {
         const header = document.querySelector('header');
         if (window.scrollY === 0) {
-            header.removeAttribute('style');
+            header.classList.remove('fixed');
         } else {
-            header.style = 'height: 2cm;';
+            header.classList.add('fixed');
         }
     })
 
 
-    function handleToggle (e) {
+    function handleToggle () {
         const menu = document.querySelector('div.large-menu');
         const menuLinks = document.querySelectorAll('div.menu-links ul li');
         const menuSocials = document.querySelectorAll('div.menu-socials ul li');
-        const header = document.querySelector('header');
+        // const header = document.querySelector('header');
         if (menuStateOpen === false) {
             menuStateOpen = true;
-            header.style.height = '2cm';
+            // header.style.height = '2cm';
             document.querySelectorAll('div.menu').forEach((menu) => {
                 menu.classList.add('focused');
             });;
             menu.style = 'display: block';
         } else { 
             menuStateOpen = false;
-            header.removeAttribute('style');
+            // header.removeAttribute('style');
             document.querySelectorAll('div.menu').forEach((menu) => {
                 menu.classList.remove('focused');
             });;
@@ -71,6 +71,7 @@ export default function Header() {
                     </div>
                     <div className="column large-8 flex space-between">
                         <div className="menu animate__animated animate__fadeInDown" onClick={handleToggle}></div>
+                        <NavLink to="/pricing" className="ln">Pricing</NavLink>
                         <a className="button animate__animated animate__fadeInDown" href="mailto:emceeblacc@gmail.com">
                             Let's Talk Business
                         </a>
@@ -102,8 +103,9 @@ export default function Header() {
                                 <ul>
                                     <li className="animate__animated animate__fadeInUp"><Link to="/">Home</Link></li>
                                     <li className="animate__animated animate__fadeInUp"><Link to="/about">About</Link></li>
+                                    <li className="animate__animated animate__fadeInUp"><Link to="/pricing">Pricing</Link></li>
                                     <li className="animate__animated animate__fadeInUp"><Link to="/contact">Contact</Link></li>
-                                    <li className="animate__animated animate__fadeInUp"><Link to="/services">Services</Link></li>
+                                    <li className="animate__animated animate__fadeInUp"><Link to="/services">Portfolio</Link></li>
                                 </ul>
                             </div>
                         </div>

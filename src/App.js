@@ -13,6 +13,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import Pricing from "./components/Pricing";
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/pricing" element={<Pricing/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/services" element={<Services/>} />
         </Routes>
